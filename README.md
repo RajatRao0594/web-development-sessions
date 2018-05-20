@@ -6,8 +6,7 @@
 
 * repository url = https://github.com/mnegi/web-development-sessions.git
 * copying the remote repository to local machine
-* this will get the repository in a new folder, 
-* and the same will be same as repository name
+* this will get the repository in a new folder, and the name will be same as the repository name
 * you will do this only once (first time)
 
 you will go to the local repository folder in your machine
