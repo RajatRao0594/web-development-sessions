@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Assignment</title>
+        <style>
+            table{
+                width: 100%;
+                height: 90%;
+                margin: 0px;
+                padding: 0px;
+            }
+            td{
+                border: 1px solid gray;
+                vertical-align: top;
+            }
+            ul{
+                list-style-type: none;
+                margin:0px;
+                padding: 0px;
+            }
+            li{
+                padding: 10px;
+                vertical-align: middle;
+                background-color: bisque;
+                border: 1px solid gray;
+                cursor: pointer;
+            }
+            li:hover{
+                background-color:goldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to html</h1>
+        <!-- possible ways to put 2 columns -->
+        <table>
+            <tr>
+                <td style="width:25%;">
+                    <ul>
+                        <li><a href="iframe.html" target="frame1">iFrame</a></li>
+                        <li>Tags</li>
+                        <li><a href="inline.html" target="frame1">Inline</a></li>
+                        <li><a href="block.html" target="frame1">Block</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <iframe name="frame1" width="100%" height="100%" style="border: none;" src=""></iframe>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

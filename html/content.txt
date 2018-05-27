@@ -1,0 +1,206 @@
+HTML Elements
+    <tagname>Content goes here...</tagname>
+    Nested HTML Elements
+    Closing tagname
+    Empty HTML Elements
+    Use Lowercase Tags - W3C recommends
+    Block vs inline Tags
+
+HTML Attributes
+    All HTML elements can have attributes
+    Attributes provide additional information about an element
+    Attributes are always specified in the start tag
+    Attributes usually come in name/value pairs like: name="value"
+    The src Attribute
+    The width and height Attributes
+    The alt Attribute
+
+
+Comments
+
+Styles
+    The HTML Style Attribute
+    Background Color
+    Text Color
+    Fonts
+    Text Size
+    Text Alignment
+
+Colors
+    Text Color
+    Background
+    Border
+    Color Names
+    rgb(red, green, blue)
+    #rrggbb
+    hsl(hue, saturation, lightness)
+    rgba(red, green, blue, alpha)
+
+Images
+    Syntax
+    alt Attribute
+    Width and Height
+    Background Image
+    <body style="background-image:url('thruskills.jpg')">
+
+Image Maps
+     <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map> 
+
+<picture> Element
+
+     <picture>
+        <source media="(min-width: 650px)" srcset="red.jpg">
+        <source media="(min-width: 465px)" srcset="green.jpg">
+        <img src="yellow.jpg" alt="Flowers" style="width:auto;">
+    </picture> 
+
+Hyperlinks
+    Syntax
+    Local Links
+    Titles
+    The target Attribute
+        _blank - Opens the linked document in a new window or tab
+        _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+        _parent - Opens the linked document in the parent frame
+        _top - Opens the linked document in the full body of the window
+        framename - Opens the linked document in a named frame
+    Image as Link
+    HTML Link Colors
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    
+Formatting
+    Formatting Elements
+    <b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Small text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+Lists
+    Unordered HTML List
+        <ul style="list-style-type:disc">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul> 
+        disc 	Sets the list item marker to a bullet (default)
+        circle 	Sets the list item marker to a circle
+        square 	Sets the list item marker to a square
+        none 	The list items will not be marked
+
+    Ordered HTML List
+        <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        </ol> 
+
+        type="1" 	The list items will be numbered with numbers (default)
+        type="A" 	The list items will be numbered with uppercase letters
+        type="a" 	The list items will be numbered with lowercase letters
+        type="I" 	The list items will be numbered with uppercase roman numbers
+        type="i" 	The list items will be numbered with lowercase roman numbers
+    Control List Counting
+        <ol start="50">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol> 
+
+    HTML Description Lists
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl> 
+
+HTML Iframes
+    <iframe src="URL"></iframe> 
+    
+    Iframe - Set Height and Width
+    <iframe src="demo_iframe.htm" height="200" width="300"></iframe> 
+    
+    Iframe - Target for a Link
+    <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p> 
+
+HTML Responsive Web Design
+    Setting The Viewport
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    Responsive Images
+    <img src="img_girl.jpg" style="width:100%;"> 
+
+    Using the max-width Property
+    <img src="img_girl.jpg" style="max-width:100%;height:auto;"> 
+
+    Show Different Images Depending on Browser Width
+    <picture>
+        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+        <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+        <source srcset="flowers.jpg">
+        <img src="img_smallflower.jpg" alt="Flowers">
+    </picture> 
+
+    Responsive Text Size
+    The text size can be set with a "vw" unit, which means the "viewport width".
+    <h1 style="font-size:10vw">Hello World</h1> 
+    
+    Media Queries
+    In addition to resize text and images, it is also common to use media queries in responsive web pages.
+
+    <style>
+        .left, .right {
+        float: left;
+        width: 20%; /* The width is 20%, by default */
+        }
+
+        .main {
+        float: left;
+        width: 60%; /* The width is 60%, by default */
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+        .left, .main, .right {
+            width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        }
+        }
+    </style> 
+
+    
+
+
