@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+</head>
+<body>
+    <h1>Login</h1>
+    <!-- form
+        1. action - what action you are performing on form submit, this will be URL
+        2. method - GET and POST, the default is GET
+
+        GET: the data is passed to the actio url in the header, in browser you will be able to
+        POST: the data is password in request body, you will not see anything in the url
+    -->
+    <form action="dologin.html" method="GET">
+        <p>Username:</p>
+        <input type="text" name="username">
+        <!-- name attribute is manadatory... without them it will not submit this element -->
+
+        <p>Password:</p>
+        <input type="password" name="password">
+
+        <p></p>
+        <button>Submit</button>
+
+        <p>Do not have an account. <a href="signup.html">Signup here</a></p>
+        
+    </form>
+</body>
+</html>
