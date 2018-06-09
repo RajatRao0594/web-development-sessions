@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Colors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <style>
+        .cname{
+            color:blue;
+        }
+        .hex{
+            color: #1a7a11;
+            /* 
+                1a : Red 
+                7a : Green
+                11 : Blue
+            */
+        }
+        .rgb{
+            color: rgb(17, 14, 158);
+            /*
+                R: 0-255
+                G: 0-255
+                B: 0-255
+            */
+        }
+        .hsl{
+            color: hsl(100,20 ,18);
+        }
+        .rgba{
+            color: rgba(17, 14, 158, 0.1);
+            /*
+                R: 0-255
+                G: 0-255
+                B: 0-255
+                A: 0-1
+            */
+        }
+        .hsla{
+            color: hsla(100,20 ,18, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Colors</h1>
+    <ol>
+        <li>Color name</li>
+        <li>HEXADECIMAL Code</li>
+        <li>RGB Value</li>
+        <li>HSL Value</li>
+        <li>RGBA Value</li>
+        <li>HSLA Value</li>
+    </ol>
+    <p class="cname">
+        This paragraph color is blue. We are using color name to specify the color.
+        <xmp>
+        .cname{
+            color:blue;
+        }
+        </xmp>
+    </p>
+
+    <p class="hex">
+        This paragraph color is green. We are using HEX color code to specify the color.
+        <xmp>
+        .hex{
+            color: #1a7a11;
+        }
+        </xmp>
+    </p>
+
+    <p class="rgb">
+        This paragraph color is blue. We are using RGB color code to specify the color.
+        <xmp>
+        .rgb{
+            color: rgb(17, 14, 158);
+        }
+        </xmp>
+    </p>
+
+    <p class="hsl">
+        This paragraph color is grey. We are using HSL color code to specify the color.
+        <xmp>
+        .hsl{
+            color: hsl(100,20 ,18);
+        }
+        </xmp>
+    </p>
+
+    <p class="rgba">
+            This paragraph color is blue. We are using RGBA color code to specify the color.
+            <xmp>
+            .rgba{
+                color: rgba(17, 14, 158, 0.5);
+            }
+            </xmp>
+        </p>
+    
+        <p class="hsla">
+            This paragraph color is grey. We are using HSLA color code to specify the color.
+            <xmp>
+            .hsla{
+                color: hsl(100,20 ,18, 0.6);
+            }
+            </xmp>
+        </p>
+
+</body>
+</html>

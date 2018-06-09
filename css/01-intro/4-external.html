@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>External CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- we have to include the CSS file here -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>External CSS</h1>
+    <p>There are 3 ways to specify CSS</p>
+    <ol>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li><b>External CSS</b></li>
+    </ol>
+
+    <h3>This is a heading defined with h3 tag. We have included internal css to make it look red.</h3>
+    <xmp>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    
+        h3 {
+            color: red;
+        }
+    
+    </xmp>
+    
+    1. In this case, we specify CSS using a style tag.<br>
+    2. Normally the style tag is kept in head. But it not mandatory.<br>
+    3. Specify the color: red to h3 element<br>
+    4. The style defined will be applicable for all the matching selectors
+
+    <h3>See this is also colored red</h3>
+    <h3>Yet another h3 element. And you should see it in red too.</h3>
+    
+</body>
+</html>

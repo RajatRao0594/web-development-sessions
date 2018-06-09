@@ -1,0 +1,79 @@
+CSS Syntax and Selectors
+    selector propery:value;propery:value;
+CSS Selectors
+    The element Selector
+    The id Selector
+    The class Selector
+    Grouping Selectors
+         h1, h2, li, p
+CSS Comments
+    /* this is a comment in css */
+Three Ways to Insert CSS
+    External style sheet
+    Internal style sheet
+    Inline style
+CSS Colors
+    Color Names
+    HEX Value
+    RGB Value
+    HSL Value
+    rgba
+    hsla
+CSS Backgrounds
+    background-color         background-color: yellow;
+    background-image         background-image: url("paper.gif");
+    background-repeat        background-repeat: repeat-x;
+    background-attachment    background-attachment: fixed;
+    background-position      background-position: right top;    
+    background: #ffffff url("img_tree.png") no-repeat right top;
+CSS Borders
+    Border Style (border-style)
+        dotted - Defines a dotted border
+        dashed - Defines a dashed border
+        solid - Defines a solid border
+        double - Defines a double border
+        groove - Defines a 3D grooved border. The effect depends on the border-color value
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value
+        inset - Defines a 3D inset border. The effect depends on the border-color value
+        outset - Defines a 3D outset border. The effect depends on the border-color value
+        none - Defines no border
+        hidden - Defines a hidden border
+    Border Width
+    Border Color
+    Border - Individual Sides
+    Border - Shorthand Property (    border: 5px solid red; )
+CSS Margins
+CSS Padding
+CSS Box Model
+    Margin
+    Border
+    Padding
+    Content
+CSS Text
+    Text Color
+    Text Alignment
+    Text Decoration 
+    Text Transformation
+    Text Indentation
+    Letter Spacing
+    Line Height
+    Text Direction
+    Word Spacing
+    Text Shadow (    text-shadow: 3px 2px red; )
+CSS Fonts
+    Font Family     font-family: "Times New Roman", Times, serif;
+    Font Style      font-style: italic;
+    Font Size       font-size: 30px;
+    Font Weight     font-weight: bold;
+    Responsive Font Size    
+        <h1 style="font-size:10vw">Hello World</h1>
+    
+CSS Icons
+    Font Awesome Icons
+    Bootstrap Icons
+    Google Icons
+
+CSS Display
+CSS Position
+CSS Overflow
+CSS Pseudo Selectors
