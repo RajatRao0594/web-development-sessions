@@ -72,8 +72,33 @@ CSS Icons
     Font Awesome Icons
     Bootstrap Icons
     Google Icons
+    Simpleline icons
 
 CSS Display
+    for controlling layouts
+    Block-level Elements
+    Inline Elements
+    Display: none;
+    visibility: hidden;
+    display 	Specifies how an element should be displayed
+    visibility 	Specifies whether or not an element should be visible
 CSS Position
+    specifies the type of positioning method used for an element
+    static      HTML elements are positioned static by default 
+    relative    An element with position: relative; is positioned relative to its normal position.
+    fixed       An element with position: fixed; is positioned relative to the viewport. The top, right, bottom, and left properties are used to position the element.
+    absolute    An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    sticky      An element with position: sticky; is positioned based on the user's scroll position.
 CSS Overflow
+    The CSS overflow property controls what happens to content that is too big to fit into an area.
+    visible - Default. The overflow is not clipped. It renders outside the element's box
+    hidden - The overflow is clipped, and the rest of the content will be invisible
+    scroll - The overflow is clipped, but a scrollbar is added to see the rest of the content
+    auto - If overflow is clipped, a scrollbar should be added to see the rest of the content
+CSS Float
+    The float property is used for positioning and layout on web pages.
+    left - The element floats to the left of its container
+    right- The element floats to the right of its container
+    none - The element does not float (will be displayed just where it occurs in the text). This is default
+    inherit - The element inherits the float value of its parent
 CSS Pseudo Selectors
